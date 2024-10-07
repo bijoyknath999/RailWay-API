@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/trip_number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Trip Number"/>
+
+    <TextView
+        android:id="@+id/departure_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Departure Time"/>
+
+    <TextView
+        android:id="@+id/arrival_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Arrival Time"/>
+
+    <TextView
+        android:id="@+id/travel_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Travel Time"/>
+
+    <TextView
+        android:id="@+id/origin_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Origin City"/>
+
+    <TextView
+        android:id="@+id/destination_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Destination City"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/seatList"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>
